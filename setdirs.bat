@@ -72,3 +72,15 @@ git clone https://github.com/GroupDuxiway/webBeauty.git %1\webs\beauty
 
 
 
+mkdir %1\out\resto\data
+mkdir %1\out\resto\logs
+copy .\templates\runResto.cmd  %1
+
+
+mkdir %1\out\beauty\data
+mkdir %1\out\beauty\logs
+copy .\templates\runBeauty.cmd  %1
+
+mkdir %1\out\wallet\data
+mkdir %1\out\wallet\logs
+copy .\templates\runWallet.cmd  %1
