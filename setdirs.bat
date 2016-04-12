@@ -7,7 +7,7 @@ mkdir %1
 
  
 mkdir %1\servers
-mkdir %1\servers\out
+
 
 
 git clone https://github.com/GroupDuxiway/serverResto.git %1\servers\resto
@@ -29,7 +29,6 @@ REM mkdir servers\wallet\database
 REM mkdir servers\wallet\tests
 
 mkdir %1\apps
-mkdir %1\apps\out
 
 
 mkdir %1\apps\resto
