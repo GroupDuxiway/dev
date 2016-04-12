@@ -63,3 +63,12 @@ REM mkdir apps\wallet\user
 REM mkdir apps\wallet\user\app
 REM mkdir apps\wallet\user\tests
 
+mkdir %1\webs
+
+git clone https://github.com/GroupDuxiway/webResto.git %1\webs\resto
+
+
+git clone https://github.com/GroupDuxiway/webBeauty.git %1\webs\beauty
+
+
+
