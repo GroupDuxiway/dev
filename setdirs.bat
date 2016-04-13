@@ -70,6 +70,8 @@ git clone https://github.com/GroupDuxiway/webResto.git %1\webs\resto
 
 git clone https://github.com/GroupDuxiway/webBeauty.git %1\webs\beauty
 
+copy .\templates\runWebResto.cmd  %1
+copy .\templates\runWebResto.cmd  %1
 
 
 mkdir %1\out\resto\data
